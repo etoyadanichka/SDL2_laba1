@@ -11,6 +11,7 @@ public:
 	void loop();
 private:
 		bool Active = true;
+		/*some changes init sdl*/
 };
 
 
