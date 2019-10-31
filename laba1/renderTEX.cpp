@@ -22,6 +22,7 @@ renderTEX::renderTEX(const initWIN& window, int x, int y, int w, int h, const st
 	SDL_FreeSurface(_surface);
 
 	SDL_Rect _rect = { _x, _y, _w, _h };
+	/*Some chenges in renderTEX*/
 
 	SDL_RenderCopy(_renderer, _texture, nullptr, &_rect);
 	

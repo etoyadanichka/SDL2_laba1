@@ -17,5 +17,6 @@ public:
 		renderTEX tex(window, 175, 20, 400, 400, "res/1.png");
 		window.drawIMG();
 		window.loop();
+		/*some changes in App.h*/
 	}
 };
